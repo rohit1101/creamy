@@ -64,7 +64,8 @@
   /* header */
   .header {
     height: 70rem;
-    background-image: url('https://images.pexels.com/photos/1006190/pexels-photo-1006190.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    /* background-image: url('https://images.pexels.com/photos/1006190/pexels-photo-1006190.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+    background-image: url('https://images.unsplash.com/photo-1541996275318-4890e83660a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
