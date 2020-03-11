@@ -108,7 +108,7 @@ render(iceCards);
 input.addEventListener('input', e => {
   oneDiv.innerHTML = '';
   const filterCards = iceCards.filter(ice => {
-    return ice.name.toLowerCase().includes(e.currentTarget.value);
+    return ice.name.toLowerCase().includes(e.currentTarget.value.toLowerCase());
   });
   render(filterCards);
 });
